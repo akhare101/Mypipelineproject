@@ -1,9 +1,9 @@
 Pipeline
 {
- agent any
+agent any
 stages
 {
-stage ('print hi')
+stage('print hi')
 {
 steps {
 sh 'echo hi'
