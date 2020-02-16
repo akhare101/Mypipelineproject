@@ -1,7 +1,6 @@
 Pipeline
 {
  agent any
-{
 stages
 {
 stage ('print hi')
@@ -12,4 +11,4 @@ sh 'echo hi'
 }
 }
 }
-}
+
